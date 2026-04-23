@@ -3,7 +3,7 @@ const config = {
 
     url: "mongodb://localhost:27017",
 
-    databaseName: "DATABASENAME",
+    databaseName: "DATABASE",
 
     options: {
       useNewUrlParser: true,
