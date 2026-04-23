@@ -28,13 +28,11 @@ async function startServer() {
           statusCode: error.statusCode
         };
       },
-      // Recommended: Add health checks and graceful shutdown handling
       plugins: [
         {
           async serverWillStart() {
             return {
               async drainServer() {
-                // Add any cleanup logic here
               },
             };
           },
